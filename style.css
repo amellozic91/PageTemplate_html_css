@@ -1,0 +1,219 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #010504;
+	margin: auto;
+	width: 960px;
+}
+
+.navMenu {
+	text-decoration: none;
+}
+
+.navMenu ul {
+	color: white;
+	background-color: #fe192e;
+	padding-top: 10px;
+	display: block;
+	width: 960px;
+	height: 25px;
+	text-align: left;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	font-size: 20px;
+}
+
+.navMenu li {
+	display: inline;
+	background-color: #fe193e;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+#navMenu ul > li:first-child  {
+	color: #bad047;
+}
+
+.content {
+	background-color: #585858;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+	width: 960px;
+}
+
+#sidebar {
+	background-color: #585858;
+	float: left;
+	width: 270px;
+	height: 761px;
+}
+
+#sidebar h1 {
+	color: white;
+	font-size: 22px;
+	background-color: red;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	margin-right: 10px;
+}
+
+#sidebar h5 {
+	color: white;
+	margin-left: 10px;
+	padding: 10px;
+	font-size: 18px;
+}
+
+#sidebar p {
+	color: white;
+	margin-left: 20px;
+	margin-right: 25px;
+}
+
+#sliderText {
+	background-color: red;
+	margin-top: -51px;
+	position: absolute;
+	margin-left: 267px;
+}
+
+#contentText {
+	background-color: #585858;
+	width: 690px;
+	float: right;
+
+}
+
+#ContentContent {
+	background-color: #585858;
+	width: 690px;
+	float: right;
+}
+
+#imagetext {
+	background-color: #585858;
+	width: 690px;
+	float: right;
+}
+
+#imagetext p {
+	width: 450px;
+	float: right;
+	padding: 20px;
+	color: white;
+}
+
+#contentLink {
+	background-color: #585858;
+	width: 690px;
+	float: right;
+}
+
+.link {
+	width: 40%;
+	float: left;
+	padding: 20px;
+	color: white;
+}
+
+.link a {
+	margin-top: 10px;
+	color: white;
+	background-color: red;
+	padding: 5px 200px 5px 5px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.link p {
+	margin-bottom: 20px;
+}
+
+#ContentContent h1 {
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+#ContentContent p {
+	color: white;
+	margin-left: 22px;
+	padding-bottom: 10px;
+	width: 650px;
+}
+
+#contentText p {
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+#slider {
+	padding-top: 10px;
+}
+
+#slider p {
+	background-color: white;
+	height: 30px;
+	padding-top: 10px;
+	margin-top: -43px;
+	position: absolute;
+	width: 660px;
+	opacity: 0.8;
+}
+
+footer {
+	background-color: #585858;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0; 
+	width: 960px;
+}
+
+.footerBar {
+	width: 280px;
+	float: left;
+	background-color: black;
+	opacity: 0.5;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+.footerBar h1 {
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.footerBar p {
+	color: white;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.footerBar a {
+	background-color: white;
+	text-decoration: none;
+	margin-left: 90px;
+	padding: 5px 20px 5px 20px;
+	border-radius: 10px;
+	color: red;
+}
+
+.fBar {
+	width: 280px;
+	height: 50px;
+	float: left;
+	padding: 20px;
+}
